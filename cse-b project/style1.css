@@ -1,0 +1,29 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    text-align: center;
+    align-content:flex start;
+    width:100;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-style: italic;
+}    
+img{
+    width:200px;
+    height:200px;
+    border-radius:5%;
+    border:solid; 
+    background-color:blue;
+}
+.parent>div{
+    padding:0.3%;
+    margin:1%;
+    background-color: palevioletred;
+} 
+@media only screen and (min-width:481px) and (max-width:768px){
+.card{
+    display:flex;
+    flex-direction:row;
+}  
+}  

@@ -1,0 +1,56 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    text-align: center;
+    align-content:flex start;
+    width:100;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-style: italic;
+}    
+img{
+    width:200px;
+    height:200px;
+    border-radius: 10%;
+    border: 2px dashed teal;
+    
+
+
+}
+.parent>div{
+    width:auto;
+    border: 2px dashed palevioletred;
+    padding:0.3%;
+    margin:1%;
+    background-color: palevioletred;
+}
+h2{
+    color: purple;
+}
+h3{
+    color:mediumvioletred;
+}
+button{
+    color: mediumblue;
+}
+/* mobile devices min-width:320px max-width:480px */
+/* tablet min-width:481px and max-width:768px */
+/* min desktop min-769-max-1024px */
+/* above 1025- 1200px */
+
+
+/* mobile 320px and 480px */
+@media only screen and (min-width:320px) and (max-width:480px){
+.parent{
+    display: flex;
+    flex-direction: column;
+}    
+.parent>div{
+    width:80%;
+}
+}
+
+    
+
+
